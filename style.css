@@ -19,13 +19,13 @@ header section p {
     margin: 0;
 }
 
-nav {
+header nav {
     margin-top: 30px;
     padding: 10px;
     text-align: center;
 }
 
-nav a {
+header nav .anchorTag {
     text-decoration: none;
     color: White !important;
     padding: 10px;
@@ -34,4 +34,27 @@ nav a {
     text-align: center;
     width: 100px;
     background-color: #CE5A67 !important;
+}
+
+main {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+main .card.top {
+    margin-top: 50px;
+}
+
+main .card {
+    background-color: #F4BF96;
+    border: 1px grey solid;
+    border-radius: 30px;
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+main .card p {
+    text-align: justify;
+    line-height: 1.5;
 }

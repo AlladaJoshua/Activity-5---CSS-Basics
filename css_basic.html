@@ -1,37 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Activity 5 - CSS Basics</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <style>
-        nav a{
-            background-color: bisque;
-        } 
-        #header_title {
-            text-align: center;
-        }
+      nav a {
+        background-color: bisque;
+      }
+
+      #header_title {
+        text-align: center;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <section id="header_title">
-            <h1>Popular Game</h1>
-            <p>This are the popular games now in the market!</p>
-        </section>
-        <nav>
-            <a href="#valorant" class="anchorTag">Valorant</a>
-            <a href="#csgo" class="anchorTag">CSGO</a>
-            <a href="#GTAV" class="anchorTag">GTA V</a>
-            <a href="#LOL" class="anchorTag" style="color: red;">LOL</a>
-        </nav>
+      <section id="header_title">
+        <h1>Popular Game</h1>
+        <p>This are the popular games now in the market!</p>
+      </section>
+      <nav>
+        <a href="#valorant" class="anchorTag">Valorant</a>
+        <a href="#csgo" class="anchorTag">CSGO</a>
+        <a href="#GTAV" class="anchorTag">GTA V</a>
+        <a href="#LOL" class="anchorTag" style="color: red">LOL</a>
+      </nav>
     </header>
     <main>
-        
+      <section class="card top" id="valorant">
+        <h3>Valorant</h3>
+        <p>
+          Valorant is a team-based first-person tactical hero shooter set in the
+          near future. Players play as one of a set of Agents, characters based
+          on several countries and cultures around the world. In the main game
+          mode, players are assigned to either the attacking or defending team
+          with each team having five players on it.
+        </p>
+      </section>
+      <section class="card" id="csgo">
+        <h3>Counter-Strike: Global Offensive</h3>
+        <p>
+          Counter-Strike: Global Offensive (CS:GO) is a round-based, 5v5
+          tactical FPS with an Attackers vs. Defenders setup and no respawns,
+          meaning if a player is eliminated they will not respawn until the next
+          round. The game is available to download from the STEAM Games Client.
+        </p>
+      </section>
+      <section class="card" id="GTAV">
+        <h3>Grand Theft Auto V</h3>
+        <p>
+          Grand Theft Auto V is an action-adventure game played from either a
+          third-person or first-person perspective. Players complete
+          missions—linear scenarios with set objectives—to progress through the
+          story. Outside of the missions, players may freely roam the open
+          world.
+        </p>
+      </section>
+      <section class="card" id="LOL">
+        <h3>League of Legends</h3>
+        <p>
+          League of Legends is one of the world's most popular video games,
+          developed by Riot Games. It features a team-based competitive game
+          mode based on strategy and outplaying opponents. Players work with
+          their team to break the enemy Nexus before the enemy team breaks
+          theirs.
+        </p>
+      </section>
     </main>
-    <footer>
-        
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
