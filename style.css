@@ -58,3 +58,14 @@ main .card p {
     text-align: justify;
     line-height: 1.5;
 }
+
+footer {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+footer #footer_description {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 500;
+}
